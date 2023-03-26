@@ -5,18 +5,18 @@
     "renderType": 0,
     "texture": "unnamed",
     "customModelName": "Normal",
-    "name": "Koronbeki Pickaxe",
+    "name": "Marreta Do Zoio",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 6,
-    "efficiency": 12.0,
+    "efficiency": 13.0,
     "attackSpeed": 1.0,
     "enchantability": 42,
-    "damageVsEntity": 6.0,
-    "usageCount": 1164,
+    "damageVsEntity": 7.1,
+    "usageCount": 2164,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -26,6 +26,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Marretazoio"
+    }
   }
 }

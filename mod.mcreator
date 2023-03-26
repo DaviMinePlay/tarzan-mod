@@ -369,6 +369,46 @@
           }
         ]
       },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Marretazoio",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marretazoio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/MarretazoioProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
       "path": "~/Tools"
     }
   ],
@@ -384,7 +424,7 @@
       "block.mod.koronbeki_block": "Block of Koronbeki",
       "block.mod.koronbeki_ore": "Koronbeki Ore",
       "item.mod.maconha_armor_helmet": "Maconha Armor Helmet",
-      "item.mod.koronbeki_pickaxe": "Koronbeki Pickaxe",
+      "item.mod.koronbeki_pickaxe": "Marreta Do Zoio",
       "item.mod.koronbeki_ingot": "Koronbeki",
       "item.mod.koronbeki_hoe": "Koronbeki Hoe",
       "item.mod.koronbeki_shovel": "Koronbeki Shovel"
