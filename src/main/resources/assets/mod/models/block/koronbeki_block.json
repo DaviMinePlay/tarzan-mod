@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mod:blocks/koronbeki_ore_block",
+    "particle": "mod:blocks/koronbeki_ore_block"
+  }
+}

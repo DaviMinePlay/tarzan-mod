@@ -26,6 +26,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mod.init.ModModItems;
+import net.mcreator.mod.init.ModModFeatures;
+import net.mcreator.mod.init.ModModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -41,6 +45,10 @@ public class ModMod {
 	public ModMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		ModModBlocks.REGISTRY.register(bus);
+		ModModItems.REGISTRY.register(bus);
+
+		ModModFeatures.REGISTRY.register(bus);
 
 	}
 

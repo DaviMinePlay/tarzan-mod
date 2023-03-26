@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mod:koronbeki_block"
+    }
+  ],
+  "result": {
+    "item": "mod:koronbeki_ingot",
+    "count": 9
+  }
+}

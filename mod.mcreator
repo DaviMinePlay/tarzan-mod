@@ -1,13 +1,267 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "KoronbekiIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/koronbeki_ingot.json",
+          "src/main/java/net/mcreator/mod/item/KoronbekiIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KoronbekiOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/block/KoronbekiOreBlock.java",
+          "src/main/java/net/mcreator/mod/world/features/ores/KoronbekiOreFeature.java",
+          "src/main/resources/assets/mod/blockstates/koronbeki_ore.json",
+          "src/main/resources/assets/mod/models/item/koronbeki_ore.json",
+          "src/main/resources/assets/mod/models/block/koronbeki_ore.json"
+        ]
+      },
+      "path": "~/Blocos"
+    },
+    {
+      "name": "KoronbekiBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/koronbeki_block.json",
+          "src/main/resources/assets/mod/blockstates/koronbeki_block.json",
+          "src/main/java/net/mcreator/mod/block/KoronbekiBlockBlock.java",
+          "src/main/resources/assets/mod/models/block/koronbeki_block.json"
+        ]
+      },
+      "path": "~/Blocos"
+    },
+    {
+      "name": "KoronbekiOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_ore_smelting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/koronbeki_pickaxe.json",
+          "src/main/java/net/mcreator/mod/item/KoronbekiPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "KoronbekiAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/item/KoronbekiAxeItem.java",
+          "src/main/resources/assets/mod/models/item/koronbeki_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "KoronbekiSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/koronbeki_sword.json",
+          "src/main/java/net/mcreator/mod/item/KoronbekiSwordItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "KoronbekiShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/item/KoronbekiShovelItem.java",
+          "src/main/resources/assets/mod/models/item/koronbeki_shovel.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "KoronbekiHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/item/KoronbekiHoeItem.java",
+          "src/main/resources/assets/mod/models/item/koronbeki_hoe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "KoronbekiPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "KoronbekiHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koronbeki_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/koronbeki_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.mod.koronbeki_ore": "Koronbeki Ore",
+      "item.mod.koronbeki_pickaxe": "Koronbeki Pickaxe",
+      "item.mod.koronbeki_ingot": "Koronbeki",
+      "item.mod.koronbeki_axe": "Koronbeki Axe",
+      "item.mod.koronbeki_hoe": "Koronbeki Hoe",
+      "item.mod.koronbeki_shovel": "Koronbeki Shovel",
+      "item.mod.koronbeki_sword": "Koronbeki Sword",
+      "block.mod.koronbeki_block": "Block of Koronbeki"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocos",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Recipe",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mod",
