@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "3": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "4": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "5": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "6": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "7": {
+      "item": "mod:koronbeki_ingot"
+    },
+    "8": {
+      "item": "mod:koronbeki_ingot"
+    }
+  },
+  "result": {
+    "item": "mod:maconha_armor_chestplate",
+    "count": 1
+  }
+}

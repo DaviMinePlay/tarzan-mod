@@ -26,7 +26,7 @@ public class KoronbekiShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 6;
+				return 8;
 			}
 
 			public int getEnchantmentValue() {

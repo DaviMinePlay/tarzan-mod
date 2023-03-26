@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "koronbeki_pickaxe",
+    "texture": "unnamed",
     "customModelName": "Normal",
     "name": "Koronbeki Pickaxe",
     "specialInfo": [],

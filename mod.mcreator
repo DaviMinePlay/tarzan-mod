@@ -95,6 +95,7 @@
     {
       "name": "KoronbekiPickaxe",
       "type": "tool",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_pickaxe",
@@ -109,6 +110,7 @@
     {
       "name": "KoronbekiAxe",
       "type": "tool",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_axe",
@@ -123,6 +125,7 @@
     {
       "name": "KoronbekiSword",
       "type": "tool",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_sword",
@@ -137,6 +140,7 @@
     {
       "name": "KoronbekiShovel",
       "type": "tool",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_shovel",
@@ -151,6 +155,7 @@
     {
       "name": "KoronbekiHoe",
       "type": "tool",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_hoe",
@@ -165,6 +170,7 @@
     {
       "name": "KoronbekiPickaxeRecipe",
       "type": "recipe",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_pickaxe_recipe",
@@ -178,6 +184,7 @@
     {
       "name": "KoronbekiAxeRecipe",
       "type": "recipe",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_axe_recipe",
@@ -191,6 +198,7 @@
     {
       "name": "KoronbekiSwordRecipe",
       "type": "recipe",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_sword_recipe",
@@ -204,6 +212,7 @@
     {
       "name": "KoronbekiShovelRecipe",
       "type": "recipe",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_shovel_recipe",
@@ -217,6 +226,7 @@
     {
       "name": "KoronbekiHoeRecipe",
       "type": "recipe",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "koronbeki_hoe_recipe",
@@ -226,20 +236,158 @@
         ]
       },
       "path": "~/Recipe"
+    },
+    {
+      "name": "MaconhaArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maconha_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mod/models/item/maconha_armor_boots.json",
+          "src/main/resources/assets/mod/models/item/maconha_armor_helmet.json",
+          "src/main/java/net/mcreator/mod/item/MaconhaArmorItem.java",
+          "src/main/resources/assets/mod/models/item/maconha_armor_leggings.json",
+          "src/main/resources/assets/mod/models/item/maconha_armor_chestplate.json"
+        ]
+      },
+      "path": "~/armaduras"
+    },
+    {
+      "name": "Armor",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/ArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Armadura1",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/armadura_1.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Armadura2",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/armadura_2.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Armadura3",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/armadura_3.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Armadura5",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mod/recipes/armadura_5.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Treechoper",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treechoper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mod/procedures/TreechoperProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.mod.maconha_armor_leggings": "Maconha Armor Leggings",
+      "item.mod.maconha_armor_chestplate": "Maconha Armor Body",
+      "item.mod.koronbeki_axe": "Koronbeki Axe",
+      "item.mod.koronbeki_sword": "Koronbeki Sword",
+      "item.mod.maconha_armor_boots": "Maconha Armor Boots",
+      "block.mod.koronbeki_block": "Block of Koronbeki",
       "block.mod.koronbeki_ore": "Koronbeki Ore",
+      "item.mod.maconha_armor_helmet": "Maconha Armor Helmet",
       "item.mod.koronbeki_pickaxe": "Koronbeki Pickaxe",
       "item.mod.koronbeki_ingot": "Koronbeki",
-      "item.mod.koronbeki_axe": "Koronbeki Axe",
       "item.mod.koronbeki_hoe": "Koronbeki Hoe",
-      "item.mod.koronbeki_shovel": "Koronbeki Shovel",
-      "item.mod.koronbeki_sword": "Koronbeki Sword",
-      "block.mod.koronbeki_block": "Block of Koronbeki"
+      "item.mod.koronbeki_shovel": "Koronbeki Shovel"
     }
   },
   "foldersRoot": {
@@ -259,6 +407,14 @@
       },
       {
         "name": "Recipe",
+        "children": []
+      },
+      {
+        "name": "procedure",
+        "children": []
+      },
+      {
+        "name": "armaduras",
         "children": []
       }
     ]

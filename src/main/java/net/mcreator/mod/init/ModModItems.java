@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mod.item.MaconhaArmorItem;
 import net.mcreator.mod.item.KoronbekiSwordItem;
 import net.mcreator.mod.item.KoronbekiShovelItem;
 import net.mcreator.mod.item.KoronbekiPickaxeItem;
@@ -31,6 +32,10 @@ public class ModModItems {
 	public static final RegistryObject<Item> KORONBEKI_SWORD = REGISTRY.register("koronbeki_sword", () -> new KoronbekiSwordItem());
 	public static final RegistryObject<Item> KORONBEKI_SHOVEL = REGISTRY.register("koronbeki_shovel", () -> new KoronbekiShovelItem());
 	public static final RegistryObject<Item> KORONBEKI_HOE = REGISTRY.register("koronbeki_hoe", () -> new KoronbekiHoeItem());
+	public static final RegistryObject<Item> MACONHA_ARMOR_HELMET = REGISTRY.register("maconha_armor_helmet", () -> new MaconhaArmorItem.Helmet());
+	public static final RegistryObject<Item> MACONHA_ARMOR_CHESTPLATE = REGISTRY.register("maconha_armor_chestplate", () -> new MaconhaArmorItem.Chestplate());
+	public static final RegistryObject<Item> MACONHA_ARMOR_LEGGINGS = REGISTRY.register("maconha_armor_leggings", () -> new MaconhaArmorItem.Leggings());
+	public static final RegistryObject<Item> MACONHA_ARMOR_BOOTS = REGISTRY.register("maconha_armor_boots", () -> new MaconhaArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
